@@ -1,0 +1,136 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+				"path": "pages/index/index",
+				"style": {
+					"navigationBarTitleText": "党建",
+					"backgroundTextStyle": "dark",
+					"navigationBarBackgroundColor": "#F2F2F2",
+					"enablePullDownRefresh": true,
+					"backgroundColor": "#F2F2F2"
+				}
+			},
+			{
+				"path": "pages/article/list",
+				"style": {
+					"navigationBarTitleText": "列表",
+					"backgroundTextStyle": "dark",
+					"navigationBarBackgroundColor": "#F2F2F2",
+					"enablePullDownRefresh": true,
+					"backgroundColor": "#F2F2F2"
+				}
+			},
+			{
+				"path": "pages/article/details",
+				"style": {
+					"navigationBarTitleText": "文章详情"
+				}
+			},
+			
+        {
+            "path" : "pages/user/index",
+            "style" : {
+                "navigationBarTitleText" : "我的"
+            }
+        },
+		{
+		    "path" : "pages/user/info",
+		    "style" : {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+		    "path" : "pages/user/integral",
+		    "style" : {
+				"navigationBarTitleText": "积分记录"
+			}
+		},
+		{
+		    "path" : "pages/user/branch",
+		    "style" : {
+				"navigationBarTitleText": "我的支部"
+			}
+		},
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText" : "登录",
+                "navigationBarBackgroundColor" : "#DD5147",
+                "navigationBarTextStyle" : "white"
+            }
+        },
+		{
+		    "path" : "pages/login/demo",
+		    "style" : {
+		        "navigationBarTitleText" : "测试",
+		        "navigationBarBackgroundColor" : "#DD5147",
+		        "navigationBarTextStyle" : "white"
+		    }
+		},
+        {
+            "path" : "pages/user/reg",
+            "style" : {
+                "navigationBarTitleText" : "注册"
+            }
+        },
+        {
+            "path" : "pages/message/index",
+            "style" : {
+                "navigationBarTitleText" : "消息",
+                "enablePullDownRefresh" : true,
+                "backgroundColor" : "#eee"
+            }
+        }
+        ,{
+    "path": "pages/goods/index",
+    "style": {
+        "app-plus": {
+            "titleNView": {
+                "buttons": [
+                    {
+                        "text": "\u65b0\u589e",
+                        "fontSize": "14"
+                    }
+                ]
+            }
+        }
+    }
+},{
+    "path": "pages/goods/action"
+},{
+    "path": "pages/goods/detail"
+}
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar" : {
+        "color" : "#666666",
+        "selectedColor" : "#cb0000",
+        "borderStyle" : "black",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "iconPath" : "static/navbar_index.png",
+                "selectedIconPath" : "static/navbar_index2.png",
+                "text" : "主页"
+            },
+            {
+                "pagePath" : "pages/message/index",
+                "iconPath" : "static/navbar_message.png",
+                "selectedIconPath" : "static/navbar_message2.png",
+                "text" : "消息"
+            },
+            {
+                "pagePath" : "pages/user/index",
+                "iconPath" : "static/navbar_my.png",
+                "selectedIconPath" : "static/navbar_my2.png",
+                "text" : "我的"
+            }
+        ]
+    }
+}
